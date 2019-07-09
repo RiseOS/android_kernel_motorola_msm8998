@@ -1607,7 +1607,7 @@ static const struct msm_pingroup sdm660_groups[] = {
 		 NA, NA),
 	PINGROUP(62, NORTH, sec_mi2s, audio_ref, MDP_VSYNC, cri_trng, NA, NA,
 		 atest_char0, NA, NA),
-	PINGROUP(63, NORTH, blsp_spi8_a, NA, NA, qdss_gpio1, NA, NA, NA, NA, NA),
+	PINGROUP(63, NORTH, NA, NA, NA, qdss_gpio1, NA, NA, NA, NA, NA),
 	PINGROUP(64, SOUTH, blsp_spi8_cs1, sp_cmu, NA, NA, qdss_gpio2, NA, NA,
 		 NA, NA),
 	PINGROUP(65, SOUTH, NA, nav_pps_a, nav_pps_a, gps_tx_a, blsp_spi3_cs2,
